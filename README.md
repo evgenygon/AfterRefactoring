@@ -7,9 +7,9 @@ A dealership can also buy vehicles from customers.
 
 There are three types of vehicles in the dealership: 
 
-1. Car
-2. Truck
-3. Motorcycle
+1. 'Car'
+2. 'Truck'
+3. 'Motorcycle'
 
 There are two types of customers : Customer & Employee.
 
