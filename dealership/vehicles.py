@@ -18,7 +18,7 @@ class Car(Vehicle):
     PURCHASE_MULTIPLIER = 0.004
     INTEREST_RATE = 1.07
     LEASE_MULTIPLIER = 1.2
-    
+
 class Motorcycle(Vehicle):
     SALE_MULTIPLIER = 1.1
     PURCHASE_MULTIPLIER = 0.009

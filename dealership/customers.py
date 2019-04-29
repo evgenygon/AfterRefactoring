@@ -14,4 +14,3 @@ class Customer(Person):
 
 class Employee(Person):
     EMPLOYEE_STATUS = True
-    
