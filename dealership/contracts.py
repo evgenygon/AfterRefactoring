@@ -20,7 +20,7 @@ class BuyContract(Contract):
 class LeaseContract(Contract):
     def __init__(self, vehicle, customer, length_in_months):
         super(LeaseContract, self).__init__(vehicle, customer)
-        self.length_in_months = length_in_months 
+        self.length_in_months = length_in_months
 
     def total_value(self):
         total = self.vehicle.sale_price() + (self.vehicle.sale_price() * self.vehicle.LEASE_MULTIPLIER / self.length_in_months)
